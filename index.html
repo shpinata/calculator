@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <meta charset = "utf-8"></meta>
+  <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/index.css">
+  <style type="text/css">
+    @font-face {
+    font-family: 'a_LCDNova';
+    src: url('src/fond-family/subset-a_LCDNova.eot');
+    src: url('src/fond-family/subset-a_LCDNova.eot?#iefix') format('embedded-opentype'),
+        url('src/fond-family/subset-a_LCDNova.woff2') format('woff2'),
+        url('src/fond-family/subset-a_LCDNova.woff') format('woff'),
+        url('src/fond-family/subset-a_LCDNova.svg#a_LCDNova') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+  </style>
+</head>
+<body>
+  <div id = 'calc'>
+    <div id = 'calc1'>
+      <div id = top></div>
+      <div id = 'down'>
+        <div id = 'operator'></div>
+        <div id = 'numbers'>
+          <button id='cancel'>C</button>
+          <button id='delete'>←</button>
+          <button id='persent'>%</button>
+          <button id='division' class="operator">/</button>
+          <button id='seven'>7</button>
+          <button id='eight'>8</button>
+          <button id='nine'>9</button>
+          <button id='multiplication' class="operator">x</button>
+          <button id='four'>4</button>
+          <button id='five'>5</button>
+          <button id='six'>6</button>
+          <button id='subtraction' class="operator">-</button>
+          <button id='one'>1</button>
+          <button id='two'>2</button>
+          <button id='three'>3</button>
+          <button id='summation' class="operator">+</button>
+          <button id='zero'>0</button>
+          <button id='comma'>,</button>
+          <button id='equally' class="operator">=</button>
+        </div>
+      </div>
+    </div>
+  </div>  
+  <script src="src/index.js"></script>
+</body>
+</html>
